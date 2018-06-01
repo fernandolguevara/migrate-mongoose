@@ -12,6 +12,9 @@
   "bin": {
     "migrate": "./dist/cli.js"
   },
+  "engines": {
+    "node": ">= 6"
+  },
   "keywords": [
     "migrate",
     "migration",
@@ -24,14 +27,22 @@
     "nosql"
   ],
   "author": "Santiago Quinteros <santiago@whyline.com>",
-  "contributors": [{
-     "name": "Santiago Quinteros",
-     "email": "santiago@whyline.com",
-     "url": "https://github.com/santiq"
-  },{
-     "name": "ahrnee",
-     "url": "https://github.com/ahrnee"
-  }],
+  "contributors": [
+    {
+      "name": "Santiago Quinteros",
+      "email": "santiago@whyline.com",
+      "url": "https://github.com/santiq"
+    },
+    {
+      "name": "ahrnee",
+      "url": "https://github.com/ahrnee"
+    },
+    {
+      "name": "Fernando López Guevara",
+      "email": "fernnado.lguevara@gmail.com",
+      "url": "https://github.com/fernandolguevara"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -42,7 +53,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-latest": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "bluebird": "^3.5.1",
     "colors": "^1.2.4",
